@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Supaleak - Resume</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background: #f2f2f2;
+            color: #222;
+            line-height: 1.6;
+        }
+
+        .resume {
+            max-width: 900px;
+            margin: 40px auto;
+            background: white;
+            display: grid;
+            grid-template-columns: 280px 1fr;
+            min-height: 1100px;
+            box-shadow: 0 5px 25px rgba(0, 0, 0, 0.12);
+        }
+
+        /* LEFT SIDE */
+        .sidebar {
+            background: #20242a;
+            color: white;
+            padding: 40px 30px;
+        }
+
+        .name {
+            font-size: 34px;
+            font-weight: bold;
+            letter-spacing: 2px;
+            margin-bottom: 8px;
+        }
+
+        .job-title {
+            color: #bdbdbd;
+            font-size: 15px;
+            margin-bottom: 35px;
+        }
+
+        .sidebar h2 {
+            font-size: 15px;
+            letter-spacing: 1.5px;
+            border-bottom: 1px solid #555;
+            padding-bottom: 8px;
+            margin: 25px 0 15px;
+        }
+
+        .contact p,
+        .sidebar li {
+            font-size: 13px;
+            color: #ddd;
+            margin-bottom: 10px;
+        }
+
+        .sidebar ul {
+            list-style: none;
+        }
+
+        /* MAIN CONTENT */
+        .main {
+            padding: 45px 45px;
+        }
+
+        .section {
+            margin-bottom: 32px;
+        }
+
+        .section-title {
+            font-size: 19px;
+            color: #20242a;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            border-bottom: 2px solid #20242a;
+            padding-bottom: 7px;
+            margin-bottom: 18px;
+        }
+
+        .profile {
+            font-size: 14px;
+            color: #555;
+        }
+
+        .item {
+            margin-bottom: 20px;
+        }
+
+        .item h3 {
+            font-size: 16px;
+            margin-bottom: 4px;
+        }
+
+        .item .date {
+            font-size: 13px;
+            color: #777;
+            margin-bottom: 7px;
+        }
+
+        .item p,
+        .item li {
+            font-size: 14px;
+            color: #555;
+        }
+
+        .item ul {
+            padding-left: 20px;
+        }
+
+        .skills {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
+        }
+
+        .skill {
+            background: #f1f1f1;
+            padding: 9px 12px;
+            font-size: 13px;
+            border-left: 3px solid #20242a;
+        }
+
+        .footer {
+            text-align: center;
+            font-size: 11px;
+            color: #999;
+            margin-top: 30px;
+        }
+
+        @media (max-width: 700px) {
+            .resume {
+                margin: 0;
+                display: block;
+                box-shadow: none;
+            }
+
+            .sidebar {
+                padding: 30px;
+            }
+
+            .main {
+                padding: 30px;
+            }
+
+            .skills {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        @media print {
+            body {
+                background: white;
+            }
+
+            .resume {
+                margin: 0;
+                box-shadow: none;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="resume">
+
+    <!-- SIDEBAR -->
+    <aside class="sidebar">
+
+        <div class="name">SUPALEAK</div>
+        <div class="job-title">Communication Arts Student</div>
+
+        <div class="contact">
+            <h2>CONTACT</h2>
+
+            <p>📍 798/77 Pracha Uthit 90,<br>
+            Phra Samut Chedi,<br>
+            Samut Prakan, Thailand</p>
+
+            <p>📞 Your Phone Number</p>
+            <p>✉️ Your Email Address</p>
+        </div>
+
+        <div>
+            <h2>SKILLS</h2>
+            <ul>
+                <li>• Video Editing</li>
+                <li>• Film &amp; Media Production</li>
+                <li>• Creative Thinking</li>
+                <li>• Teamwork</li>
+                <li>• Communication</li>
+                <li>• Presentation</li>
+                <li>• Basic Computer Skills</li>
+            </ul>
+        </div>
+
+        <div>
+            <h2>INTERESTS</h2>
+            <ul>
+                <li>• Film &amp; Movies</li>
+                <li>• Video Editing</li>
+                <li>• Basketball</li>
+                <li>• Music</li>
+                <li>• Media Content</li>
+            </ul>
+        </div>
+
+    </aside>
+
+
+    <!-- MAIN CONTENT -->
+    <main class="main">
+
+        <!-- PROFILE -->
+        <section class="section">
+            <h2 class="section-title">Profile</h2>
+
+            <p class="profile">
+                A university student who is interested in film, media production,
+                and video editing. I am a creative, responsible, and willing-to-learn
+                person who enjoys working with others. I would like to gain experience
+                in media production and develop my skills in video editing and creative work.
+            </p>
+        </section>
+
+
+        <!-- EDUCATION -->
+        <section class="section">
+            <h2 class="section-title">Education</h2>
+
+            <div class="item">
+                <h3>University of the Thai Chamber of Commerce (UTCC)</h3>
+                <div class="date">University Student</div>
+
+                <p>
+                    Major: Communication Arts
+                </p>
+            </div>
+        </section>
+
+
+        <!-- EXPERIENCE -->
+        <section class="section">
+            <h2 class="section-title">Work Experience</h2>
+
+            <div class="item">
+                <h3>Student Projects &amp; Media Production</h3>
+
+                <ul>
+                    <li>
+                        Worked on university projects related to film,
+                        media, and communication.
+                    </li>
+
+                    <li>
+                        Participated in video production, filming,
+                        and basic video editing.
+                    </li>
+
+                    <li>
+                        Worked with classmates to plan and complete
+                        projects on time.
+                    </li>
+
+                    <li>
+                        Used creative ideas to develop content for
+                        presentations and media projects.
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+
+        <!-- CAREER GOAL -->
+        <section class="section">
+            <h2 class="section-title">Career Goal</h2>
+
+            <p class="profile">
+                To gain practical experience in film, media production,
+                and video editing while developing my creative and
+                communication skills for a future career in the media industry.
+            </p>
+        </section>
+
+
+        <!-- PERSONAL SKILLS -->
+        <section class="section">
+            <h2 class="section-title">Personal Strengths</h2>
+
+            <div class="skills">
+                <div class="skill">Creative</div>
+                <div class="skill">Responsible</div>
+                <div class="skill">Team Player</div>
+                <div class="skill">Fast Learner</div>
+                <div class="skill">Good Communication</div>
+                <div class="skill">Problem Solving</div>
+            </div>
+        </section>
+
+
+        <div class="footer">
+            © 2026 Supaleak — Resume
+        </div>
+
+    </main>
+
+</div>
+
+</body>
+</html>
